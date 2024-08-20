@@ -49,3 +49,15 @@ You can move down and up with the arrow keys or W and S. To select hit Enter.
 - COMMAND is used to execute CMD commands.
 - TEXT is used to display helpful information such as a discription.
 - MENU key word is used to create another menu within existing menu.
+
+## Commands for windows
+Opens an app
+````
+cd C:/ && start cmd /k node index.js
+````
+Opens the explorer menu
+````
+cd C:/ && start .
+````
+
+Make sure to replace the directory path and the launch option to your needs
